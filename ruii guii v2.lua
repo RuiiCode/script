@@ -3547,6 +3547,7 @@ function Ruii:CreateElements(Parent : Frame , ZIndex : number , Event : Bindable
 		end;
 
 		return Respons;
+	end;
 	function elements:AddTextBox(Config: TextBox)
     		Config = Config or {};
     		Config.Name = Config.Name or "Text Box";
